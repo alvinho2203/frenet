@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora de Frete</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img class="navbar-brand" src="https://www.frenet.com.br/wp-content/uploads/2021/12/logo-1.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="calculadora.html">Calculadora</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Calculadora de Frete</h1>
+        <form id="freightForm">
+            <div class="form-group">
+                <label for="weight">Peso (kg):</label>
+                <input type="number" class="form-control" id="weight" required>
+            </div>
+            <div class="form-group">
+                <label for="length">Comprimento (cm):</label>
+                <input type="number" class="form-control" id="length" required>
+            </div>
+            <div class="form-group">
+                <label for="width">Largura (cm):</label>
+                <input type="number" class="form-control" id="width" required>
+            </div>
+            <div class="form-group">
+                <label for="height">Altura (cm):</label>
+                <input type="number" class="form-control" id="height" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+        <div id="results" class="mt-4 row justify-content-center"></div>
+    </div>
+
+    <footer class="footer fixed-bottom">
+        <div class="container">
+            <p class="text-center">Todos os direitos reservados a André Salles 2023</p>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scriptCalculadora.js"></script>
+</body>
+
+</html>

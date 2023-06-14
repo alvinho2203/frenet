@@ -1,0 +1,122 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(257.13deg, #02AEEF 0%, #2A3580 88.14%);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #02AEEF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 25px!important;
+    margin-top: 10px;
+}
+
+#results {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 10px;
+    color: black;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin-right: 0;
+    }
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 5px;
+    color: black!important;
+}
+
+
+/* Estilos do menu */
+
+.navbar {
+    background: linear-gradient(257.13deg, #02AEEF 0%, #2A3580 88.14%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar .nav-link {
+    color: #fff!important;
+    font-size: 18px!important;
+    font-weight: bold!important;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.footer {
+    background: linear-gradient(257.13deg, #02AEEF 0%, #2A3580 88.14%);
+    padding: 20px 0;
+    color: white;
+    margin-top: 60px;
+}
+
+.footer p {
+    text-align: center;
+}

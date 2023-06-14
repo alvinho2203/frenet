@@ -1,0 +1,89 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(257.13deg, #02AEEF 0%, #2A3580 88.14%);
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 150px;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+button {
+    font-size: 25px!important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+}
+
+table thead th {
+    font-size: 24px;
+}
+
+table tbody tr:first-child td {
+    font-size: 20px;
+}
+
+table tbody tr:not(:first-child) td {
+    font-size: 16px;
+}
+
+
+/* Estilos do menu */
+
+.navbar {
+    background: linear-gradient(257.13deg, #02AEEF 0%, #2A3580 88.14%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    height: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navbar .navbar-brand {
+    margin: 0 auto;
+}
+
+.navbar .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.footer {
+    background: linear-gradient(257.13deg, #02AEEF 0%, #2A3580 88.14%);
+    padding: 20px 0;
+    color: white;
+    margin-top: 60px;
+}
+
+.footer p {
+    text-align: center;
+}
